@@ -1,4 +1,13 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +19,117 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+header{
+  padding: 5px;
+  text-align: center;
+  background-color: #56cbdb;
+}
+
+.content{
+  display: flex;
+}
+
+.form_section{
+  padding: 2rem;
+  width: 50%; 
+  display: flex;
+  flex-direction: column;
+  border-right: 3px solid #56cbdb;
+
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+input{
+  margin: 0 15px;
+  font-size: 14px;
+  border-radius: 5px;
+  outline: none;
+  padding: 3px;
+}
+
+label , input{
+  margin-top: 10px;
+}
+
+.skills-cont , label{
+  
+}
+
+button {
+    width: 60px;
+    height: 30px;
+}
+
+#enroll_btn{
+  width: 100px;
+  margin-right: 20px;
+
+}
+
+.btn{
+  margin-top: 20px;
+}
+
+
+.results{
+  padding: 1rem;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.card {
+
+  margin-top: 20px;
+  width: 100%;
+  display: flex; 
+  flex-direction: row;
+  justify-content: space-between;
+  border: 3px solid #333;
+  border-radius: 5px;
+}
+
+.card h4 {
+  display: block;
+  width: 100%;
+  background-color: #56cbdb;
+}
+
+.description{ 
+  padding: 5px;
+  width: 100%;
+  height: 140px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  border-right: 3px solid #56cbdb;
+}
+
+.description h6{
+  margin-top: 10px;
+}
+
+.description p{
+  font-size: 11px;
+  font-weight: bold;
+}
+
+.image{
+  padding: 5px;
+  width: 100%;
+  height: 140px;
+}
+
+.image img{
+  margin-top: 5px;
 }
